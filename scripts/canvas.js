@@ -6,7 +6,7 @@ function limpiar() {
 }
 
 function dBase() {
-    pincel.fillStyle = "#710a18";
+    pincel.fillStyle = "rgb(220,220,220)";
     pincel.beginPath();
     pincel.moveTo(0, 356);
     pincel.lineTo(294, 356);
@@ -16,7 +16,7 @@ function dBase() {
 }
 
 function dMastil() {
-    pincel.fillStyle = "#710a18";
+    pincel.fillStyle = "rgb(220,220,220)";
     pincel.beginPath();
     pincel.moveTo(80, 0);
     pincel.lineTo(80, 360);
@@ -26,7 +26,7 @@ function dMastil() {
 }
 
 function dTravesa() {
-    pincel.fillStyle = "#710a18";
+    pincel.fillStyle = "rgb(220,220,220)";
     pincel.beginPath();
     pincel.moveTo(80, 0);
     pincel.lineTo(260, 0);
@@ -36,7 +36,7 @@ function dTravesa() {
 }
 
 function dSoga() {
-    pincel.fillStyle = "#710a18";
+    pincel.fillStyle = "rgb(220,220,220)";
     pincel.beginPath();
     pincel.moveTo(260, 0);
     pincel.lineTo(260, 50);
@@ -46,7 +46,7 @@ function dSoga() {
 }
 
 function dCabeza() {
-    pincel.fillStyle = "#710a18";
+    pincel.fillStyle = "rgb(220,220,220)";
     pincel.beginPath();
     pincel.arc(258, 83/*Posición*/, 33/*Tamaño del radio*/, 0/*Angulo inicial*/, 2*3.14/*Angulo final*/);
     pincel.fill();
@@ -58,7 +58,7 @@ function dCabeza() {
 }
 
 function dTronco() {
-    pincel.fillStyle = "#710a18";
+    pincel.fillStyle = "rgb(220,220,220)";
     pincel.beginPath();
     pincel.moveTo(260, 115);
     pincel.lineTo(260, 250);
@@ -68,7 +68,7 @@ function dTronco() {
 }
 
 function dPieDerecho() {
-    pincel.fillStyle = "#710a18";
+    pincel.fillStyle = "rgb(220,220,220)";
     pincel.beginPath();
     pincel.moveTo(260, 250);
     pincel.lineTo(294, 310);
@@ -78,7 +78,7 @@ function dPieDerecho() {
 }
 
 function dPieIzquierdo() {
-    pincel.fillStyle = "#710a18";
+    pincel.fillStyle = "rgb(220,220,220)";
     pincel.beginPath();
     pincel.moveTo(256, 250);
     pincel.lineTo(226, 310);
@@ -88,7 +88,7 @@ function dPieIzquierdo() {
 }
 
 function dManoDerecha() {
-    pincel.fillStyle = "#710a18";
+    pincel.fillStyle = "rgb(220,220,220)";
     pincel.beginPath();
     pincel.moveTo(260, 115);
     pincel.lineTo(294, 175);
@@ -98,7 +98,7 @@ function dManoDerecha() {
 }
 
 function dManoIzquierda() {
-    pincel.fillStyle = "#710a18";
+    pincel.fillStyle = "rgb(220,220,220)";
     pincel.beginPath();
     pincel.moveTo(256, 115);
     pincel.lineTo(222, 175);

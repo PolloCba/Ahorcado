@@ -197,14 +197,14 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    color: #710a18;
+    color: lightgray;
 }
 
 .linea
 {
     width: 40px;
     height: 4px;
-    background-color: #710a18;
+    background-color: lightgray;
     border-radius: 8px;
 }
 
@@ -216,6 +216,7 @@
     font-size: 25px;
     color: rgb(220, 220, 220);
     opacity: 0.8;
+    margin-top: 2%;
 }
 
 .letra__error
