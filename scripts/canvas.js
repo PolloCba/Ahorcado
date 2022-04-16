@@ -51,7 +51,7 @@ function dCabeza() {
     pincel.arc(258, 83/*Posición*/, 33/*Tamaño del radio*/, 0/*Angulo inicial*/, 2*3.14/*Angulo final*/);
     pincel.fill();
 
-    pincel.fillStyle = "#222121";
+    pincel.fillStyle = "rgb(77, 77, 77);";
     pincel.beginPath();
     pincel.arc(258, 83/*Posición*/, 29/*Tamaño del radio*/, 0/*Angulo inicial*/, 2*3.14/*Angulo final*/);
     pincel.fill();
