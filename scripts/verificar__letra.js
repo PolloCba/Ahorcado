@@ -20,7 +20,7 @@ function vLetra(letra) {
             if(ganaste == palabra.length) {
                 finJuego = true;
                 mensaje = "Felicitaciones, ganaste... La palabra secreta era: " + palabra;
-                colorMensaje = "green";
+                colorMensaje = "#1BF538";
                 vFin();
             }
         }
@@ -32,7 +32,7 @@ function vLetra(letra) {
                 if(dHorca(errores) == false) {
                     finJuego = true;
                     mensaje = "Fallaste... La palabra secreta era: " + palabra;
-                    colorMensaje = "red";
+                    colorMensaje = "#F41F00";
                     vFin();
                 }
             }
